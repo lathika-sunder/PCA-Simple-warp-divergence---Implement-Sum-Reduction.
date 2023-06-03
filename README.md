@@ -6,24 +6,24 @@ Refer to the kernel reduceUnrolling8 and implement the kernel reduceUnrolling16,
 
 
 ## Procedure:
-```
-Step 1:
+
+### Step 1:
 Import the necessary files and libraries.
-Step 2:
+### Step 2:
 Apply the Interleaved Pair Approach by implementing it recursively.
-Step 3:
+### Step 3:
 Implement the Interleaved Pair Approach with less divergence using a CUDA kernel function.
-Step 4:
+### Step 4:
 Apply optimizations, such as loop unrolling or memory access patterns, to reduce divergence in the CUDA kernel function.
-Step 5:
+### Step 5:
 Implement specific optimizations, such as unrolling warps or using a specific block size, in the CUDA kernel function.
-Step 6: 
+### Step 6: 
 Declare the main method/function. Set up the device, initialize the size and block size, allocate host memory and device memory, and call the CUDA kernels declared in the functions.
-Step 7:
+### Step 7:
 Implement error validation and handling for CUDA function executions.
-Step 8:
+### Step 8:
 Free the host and device memory, reset the device, and check the results.
-```
+
 ## Program
 ``` 
 Developed By: Lathika Sunder
